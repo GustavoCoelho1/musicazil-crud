@@ -1,0 +1,16 @@
+.vtu_tableLyt {
+    margin-top: 50px;
+    width: 70%;
+    height: fit-content;
+    padding: 20px;
+    border: 2px solid rgb(209, 209, 209);
+    border-radius: 20px;
+}
+
+.center {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+}

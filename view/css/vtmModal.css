@@ -1,0 +1,103 @@
+:root {
+    --verde-pad: rgb(91 223 179);
+    --verde-escuro: rgb(0 49 33);
+	--verde-pad-2: rgb(2, 194, 130);
+	--verde-semi-escuro: rgb(0, 148, 57);
+}
+
+.prt {
+    color: var(--verde-escuro);
+}
+
+.semi {
+    color: var(--verde-semi-escuro);
+}
+
+.modal-content {
+    border-radius: 1.5rem !important;
+    box-shadow: 0px 0px 14px 6px var(--verde-pad) !important;
+    border: none !important;
+}
+
+.vtm_modalLyt{
+    background-color: white;
+    padding: 35px 30px 35px 30px;
+    width: 100%;
+    height: fit-content;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.vtm_modalTitulo {
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+
+.vtm_imgBorda {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px 0px var(--verde-pad);
+    margin-bottom: 12px;
+}
+
+.vtm_modalImg {
+    width: 100%;
+    height: auto;
+    border-radius: 35px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 0px 3px var(--verde-pad);
+}
+
+.vtm_labelInfo {
+    margin-bottom: 28px;
+}
+
+.vtm_modalArt {
+    color: var(--verde-escuro);
+}
+
+audio {
+    width: 80% !important;
+}
+
+.vtm_modelAudio {
+    margin-bottom: 30px;
+}
+
+.vtm_labelLetra {
+    font-size: 1.35rem;
+}
+
+.vtm_modelTxtArea {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h6 {
+    line-height: 28px !important;
+}
+
+
+.vtm_modalBotoes
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.vtm_btnAlt {
+    margin-right: 15px;
+}
+
+.modal.fade.exc {
+    padding-right: 20px!important;
+}
+

@@ -1,0 +1,67 @@
+.cadCenter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 20px
+}
+
+.cadCenter input {
+    margin-bottom: 15px;
+}
+
+.cadMusicaLyt {
+    width: 90%;
+}
+
+.cadMusicaLyt form {
+    padding: 25px;
+    border: 3px solid rgb(0, 148, 57);
+    border-radius: 20px;
+}
+
+.cadMusicaLyt form h1{
+    text-align: center; 
+    margin-bottom: 20px
+}
+
+.cadMusicaFotoCapa {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/181/181668.png");
+    background-size: cover;
+	background-position: center center;
+    border:2px solid rgb(0, 148, 57);
+    margin-bottom: 20px;
+}
+
+.cadMusicaPartes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.cadMusicaPt1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.divider {
+    width: 3px;
+    height: 200px;
+    margin: 0 40px 0 40px;
+    background: rgb(202, 202, 202);
+    border-radius: 1px;
+    align-self: center;
+}
+
+.cadMusicaPt2 {
+    width: 100%;
+    height: 100%;
+}

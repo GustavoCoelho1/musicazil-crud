@@ -1,0 +1,16 @@
+nav.fundo {
+    background-color: rgb(91, 223, 179) !important;
+}
+
+.hdr_fonte {
+    color: white !important;
+    font-family: "Bahnschrift" !important;
+}
+
+.dropdown-item{
+    color: #198754 !important;
+}
+
+* {
+	font-family: "Bahnschrift" !important;
+}

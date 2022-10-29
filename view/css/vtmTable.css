@@ -1,0 +1,39 @@
+.vtm_table {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.vtm_tableLinha 
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.vtm_tableContent {
+    display: inline-block;
+    word-wrap: normal;
+    word-break: keep-all;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+@media (max-width: 689px)
+{
+	.vtm_tableContent
+	{
+		width: 100%;
+        padding: 10px;
+	}
+
+    .vtm_table {
+        padding: 0;
+    }
+}

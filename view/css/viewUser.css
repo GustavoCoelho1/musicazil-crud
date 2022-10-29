@@ -1,0 +1,33 @@
+.vu_titulo {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.layoutText {
+    padding: 30px 30px 40px 30px !important;
+}
+
+.vu_btnBuscarCod {
+    margin-top: 15px;
+}
+
+.table.center *{
+    text-align: center!important;
+}
+
+
+
+
+.modal-header .close {
+    font-size: 20pt;
+    padding: 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
