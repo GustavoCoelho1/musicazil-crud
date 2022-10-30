@@ -7,7 +7,7 @@ $c = new Conexao();
 $conexao = $c -> conectar();
 ?>
 <script>
-    alert("<?php if($conexao != false && $conexao != null) {echo'Conexao OK! :D';} else echo'Conexão falhou! :C';?>");
+    alert("<?php if($conexao != false && $conexao != null) {echo'Conexão com o Banco de Dados OK! :D';} else echo'Conexão com o Banco de Dados falhou! :C';?>");
 </script>
 
 <link rel="stylesheet" href="./css/index.css">
