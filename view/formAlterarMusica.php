@@ -74,15 +74,7 @@ else
 
                     <div class="col-md-6">
                         <label class="form-label" for="exampleFormControlTextarea1">Artista</label>
-                        <select id="txt_NomeUser" name="txt_NomeUser" class="form-select" onchange="validarCmb(this)" required>
-                            <option value="" selected disabled>Selecione...</option>
-                            <?php 
-                                foreach($usuarios as $usuario)
-                                {?>
-                                    <option value="<?=$usuario['Nome de Usuário']?>" <?php echo ($usuario["Nome de Usuário"] == $musica["Artista"]) ?  " selected" : "" ?> disabled><?=$usuario['Nome de Usuário']?></option>
-                                <?php }
-                            ?>
-                        </select>
+                        <input type="text" id="txt_NomeUser" name="txt_NomeUser" class="form-control" value="<?=$musica["Artista"]?>" readonly>
                     </div>
 
                     <div class="col-md-4">
